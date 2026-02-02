@@ -21,11 +21,6 @@ class C extends A{
         System.out.println("am in a show in c method");
     }
 }
-class git{
-    public void display(){
-        System.out.println("Add code in pushed code ");
-    }
-}
 public class MethodOverriding {
     public static void main(String[] args) {
          
@@ -39,8 +34,7 @@ public class MethodOverriding {
          ref=obj2;
          ref =obj3;
          ref.show();
-        git g=new git();
-        g.display();
+
 
         
     }

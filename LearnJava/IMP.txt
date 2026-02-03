@@ -1,0 +1,8 @@
+In how many ways we can create the object?  
+https://www.geeksforgeeks.org/java/different-ways-create-objects-java/
+List of Methods to Create Objects in Java
+Using new keyword
+Using clone() method
+Using Deserialization
+Using Constructor.newInstance() from Reflection API
+Using Class.forName().newInstance()

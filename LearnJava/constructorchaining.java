@@ -23,6 +23,12 @@ public class constructorchaining {
     public static void main(String[] args) {
            students s=new students();
            s.info();
+           StringBuilder sb1 = new StringBuilder("abc");
+StringBuilder sb2 = new StringBuilder("abc");;
+System.out.println(sb1 == sb2);
+System.out.println(sb1.equals(sb2));
+
+System.out.println(sb1.toString().equals(sb2.toString()));
     }
 
  

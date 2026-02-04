@@ -29,9 +29,9 @@ public class SyncronizedKeyword {
         Line line =new Line();
 
         Train t1=new Train(line);
-        Train t2=new Train (line);
+        Train t3=new Train (line);
         t1.start();
-        t2.start();
-
+       
+        t3.start();
         }
 }

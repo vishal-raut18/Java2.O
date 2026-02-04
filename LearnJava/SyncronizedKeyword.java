@@ -1,3 +1,4 @@
+package LearnJava;
 class Line{
    synchronized public  void getLine(){  //if we not use synchronized here it got get ouppt as in sequance 
         for(int i=1;i<=5;i++){
